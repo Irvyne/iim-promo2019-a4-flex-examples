@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Layout</title>
+    <style>
+        html, body, main {
+            margin: 0;
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        header, main, footer {
+            text-align: center;
+        }
+        header {
+            background-color: red;
+            min-height: 150px;
+        }
+        main {
+            background-color: blue;
+            min-height: 350px;
+        }
+        footer {
+            background-color: greenyellow;
+            min-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <main>
+        <h1>Main</h1>
+    </main>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</body>
+</html>

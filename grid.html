@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Rick!</title>
+    <style>
+        .grid {
+            display: flex;
+            margin: 20px 0;
+        }
+
+        .grid-wrap {
+            flex-wrap: wrap;
+        }
+
+        @media screen and (min-width: 500px) {
+            .grid-wrap {
+                flex-wrap: nowrap;
+            }
+        }
+
+        .grid-item {
+            background: #ffffff;
+            border: 1px solid #e5e5e5;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid-item">
+            .grid-item
+        </div>
+    </div>
+    <div class="grid">
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+    </div>
+    <div class="grid">
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+    </div>
+    <div class="grid">
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+    </div>
+    <div class="grid">
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+    </div>
+    <p>grid nowrap</p>
+    <div class="grid">
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+    </div>
+    <p>grid wrap</p>
+    <div class="grid grid-wrap">
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+        <div class="grid-item">
+            .grid-item
+        </div>
+    </div>
+</body>
+</html>
